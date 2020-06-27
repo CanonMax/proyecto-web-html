@@ -1,0 +1,80 @@
+<html>
+<head>
+<tittle> juandavidcanogonzalez9A#6 </tittle> <br></br>
+<tittle><p style="color:#FF0000";> menu y submenu desplegable </tittle></p>
+<style type="text/css">
+* {
+padding:0px;
+margin:0px;
+}
+#header{
+margin:auto;
+width:500px;
+font-family: arial, helvetica, sans-serif;
+}
+ul, ol {
+list-style:none;
+}
+.nav li a {
+background-color:#000;
+color:#fff;
+text-decoration:none;
+padding:10px 15px;
+display:block;
+}
+.nav li a:hover{
+background-color:#434343
+}
+.nav > li {
+float:left;
+}
+.nav li ul{
+display:none;
+position:absolute;
+min-width:140px;
+}
+.nav li:hover > ul {
+display:block;
+}
+.nav li ul li {
+position:relative;
+}
+.nav li ul li ul {
+right:-140px;
+top:0px;
+}
+</style>
+</head>
+<body>
+<br> </br>
+
+<div id="header">
+<ul class="nav">
+<li><a href="">Inicios</a></li>
+<li><a href="">Servicios</a>
+<ul>
+<li><a href="">Submenu 1</a></li>
+<li><a href="">Submenu 2</a></li>
+<li><a href="">Submenu 3</a></li>
+<li><a href="">submenu 4</a>
+<ul>
+<li><a href="">Submenu 1</a></li>
+<li><a href="">Submenu 2</a></li>
+<li><a href="">Submenu 3</a></li>
+<li><a href="">submenu 4</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="">Acerca de </a>
+<ul>
+<li><a href="">Submenu 1</a></li>
+<li><a href="">Submenu 2</a></li>
+<li><a href="">Submenu 3</a></li>
+<li><a href="">submenu 4</a></li>
+</ul>
+</li>
+<li><a href="">Contacto</a></li>
+
+</ul>
+</div>
